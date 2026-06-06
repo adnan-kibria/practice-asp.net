@@ -1,0 +1,17 @@
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\bin\Debug\net10.0\ConsoleLayer.exe
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\bin\Debug\net10.0\ConsoleLayer.deps.json
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\bin\Debug\net10.0\ConsoleLayer.runtimeconfig.json
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\bin\Debug\net10.0\ConsoleLayer.dll
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\bin\Debug\net10.0\ConsoleLayer.pdb
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.csproj.AssemblyReference.cache
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.AssemblyInfoInputs.cache
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.AssemblyInfo.cs
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.csproj.CoreCompileInputs.cache
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleL.92F2AA6F.Up2Date
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.dll
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\refint\ConsoleLayer.dll
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.pdb
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ConsoleLayer.genruntimeconfig.cache
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\ConsoleLayer\obj\Debug\net10.0\ref\ConsoleLayer.dll

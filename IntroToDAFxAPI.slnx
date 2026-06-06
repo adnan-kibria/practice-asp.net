@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BLL/BLL.csproj" />
+  <Project Path="ConsoleLayer/ConsoleLayer.csproj" />
+  <Project Path="DAL/DAL.csproj" />
+  <Project Path="PresentationAPI/PresentationAPI.csproj" />
+</Solution>
