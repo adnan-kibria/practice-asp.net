@@ -1,4 +1,6 @@
-﻿namespace DAL;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace DAL;
 
 public class DepartmentRepo : IDepartmentRepo
 {
@@ -7,27 +9,29 @@ public class DepartmentRepo : IDepartmentRepo
     {
         _db = db;
     }
-    public bool Add(Department dept)
+
+    public async Task<bool> Add(Department dept)
+    {
+        await _db.Departments.AddAsync(dept);
+        return await _db.SaveChangesAsync() > 0;
+    }
+
+    public Task<bool> Delete(int id)
     {
         throw new NotImplementedException();
     }
 
-    public bool Delete(int id)
+    public async Task<Department> Get(int id)
     {
-        throw new NotImplementedException();
+        return await _db.Departments.FindAsync(id);
     }
 
-    public Department Get(int id)
+    public async Task<IEnumerable<Department>> GetAll()
     {
-        throw new NotImplementedException();
+        return await _db.Departments.ToListAsync();
     }
 
-    public IEnumerable<Department> GetAll()
-    {
-        throw new NotImplementedException();
-    }
-
-    public bool Update(Department dept)
+    public Task<bool> Update(Department dept)
     {
         throw new NotImplementedException();
     }

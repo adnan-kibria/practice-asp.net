@@ -162,4 +162,4 @@ C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\PresentationAPI\ob
 C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\PresentationAPI\obj\Debug\net10.0\PresentationAPI.pdb
 C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\PresentationAPI\obj\Debug\net10.0\PresentationAPI.genruntimeconfig.cache
 C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\PresentationAPI\obj\Debug\net10.0\ref\PresentationAPI.dll
-C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\PresentationAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\adnan\OneDrive\Documents\asp.net-core\IntroToDAFxAPI\PresentationAPI\obj\Debug\net10.0\PresentationAPI.sourcelink.json

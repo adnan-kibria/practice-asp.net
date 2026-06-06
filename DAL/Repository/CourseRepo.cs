@@ -7,27 +7,28 @@ public class CourseRepo : ICourseRepo
     {
         _db = db;
     }
-    public bool Add(Course course)
+
+    public Task<bool> Add(Course course)
     {
         throw new NotImplementedException();
     }
 
-    public bool Delete(Guid guid)
+    public Task<bool> Delete(Guid guid)
     {
         throw new NotImplementedException();
     }
 
-    public Course Get(Guid guid)
+    public Task<Course> Get(Guid guid)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Course> GetAll()
+    public Task<IEnumerable<Course>> GetAll()
     {
         throw new NotImplementedException();
     }
 
-    public bool Update(Course course)
+    public Task<bool> Update(Course course)
     {
         throw new NotImplementedException();
     }

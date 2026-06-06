@@ -2,9 +2,9 @@
 
 public interface ICourseRepo
 {
-    IEnumerable<Course> GetAll();
-    Course Get(Guid guid);
-    bool Add(Course course);
-    bool Update(Course course);
-    bool Delete(Guid guid);
+    Task<IEnumerable<Course>> GetAll();
+    Task<Course> Get(Guid guid);
+    Task<bool> Add(Course course);
+    Task<bool> Update(Course course);
+    Task<bool> Delete(Guid guid);
 }

@@ -7,12 +7,13 @@ public class RoleRepo : IRoleRepo
     {
         _db = db;
     }
-    public Role Get(int id)
+
+    public Task<Role> Get(int id)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Role> GetAll()
+    public Task<IEnumerable<Role>> GetAll()
     {
         throw new NotImplementedException();
     }

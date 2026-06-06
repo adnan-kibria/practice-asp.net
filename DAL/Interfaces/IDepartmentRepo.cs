@@ -2,9 +2,9 @@
 
 public interface IDepartmentRepo
 {
-    IEnumerable<Department> GetAll();
-    Department Get(int id);
-    bool Add(Department dept);
-    bool Update(Department dept);
-    bool Delete(int id);
+    Task<IEnumerable<Department>> GetAll();
+    Task<Department> Get(int id);
+    Task<bool> Add(Department dept);
+    Task<bool> Update(Department dept);
+    Task<bool> Delete(int id);
 }

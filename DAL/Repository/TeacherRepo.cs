@@ -7,27 +7,28 @@ public class TeacherRepo : ITeacherRepo
     {
         _db = db;
     }
-    public bool Add(Teacher teacher)
+
+    public Task<bool> Add(Teacher teacher)
     {
         throw new NotImplementedException();
     }
 
-    public bool Delete(int id)
+    public Task<bool> Delete(int id)
     {
         throw new NotImplementedException();
     }
 
-    public Teacher Get(int id)
+    public Task<Teacher> Get(int id)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Teacher> GetAll()
+    public Task<IEnumerable<Teacher>> GetAll()
     {
         throw new NotImplementedException();
     }
 
-    public bool Update(Teacher teacher)
+    public Task<bool> Update(Teacher teacher)
     {
         throw new NotImplementedException();
     }

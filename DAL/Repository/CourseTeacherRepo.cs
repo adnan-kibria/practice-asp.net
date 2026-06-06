@@ -7,12 +7,13 @@ public class CourseTeacherRepo : ICourseTeacherRepo
     {
         _db = db;
     }
-    public CourseTeacher Get(int id)
+
+    public Task<CourseTeacher> Get(int id)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<CourseTeacher> GetAll()
+    public Task<IEnumerable<CourseTeacher>> GetAll()
     {
         throw new NotImplementedException();
     }

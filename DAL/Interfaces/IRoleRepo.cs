@@ -2,6 +2,6 @@
 
 public interface IRoleRepo
 {
-    IEnumerable<Role> GetAll();
-    Role Get(int id);
+    Task<IEnumerable<Role>> GetAll();
+    Task<Role> Get(int id);
 }

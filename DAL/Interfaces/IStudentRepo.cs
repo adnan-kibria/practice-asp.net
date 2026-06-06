@@ -2,9 +2,9 @@
 
 public interface IStudentRepo
 {
-    IEnumerable<Student> GetAll();
-    Student Get(int id);
-    bool Add(Student student);
-    bool Update(Student student);
-    bool Delete(int id);
+    Task<IEnumerable<Student>> GetAll();
+    Task<Student> Get(int id);
+    Task<bool> Add(Student student);
+    Task<bool> Update(Student student);
+    Task<bool> Delete(int id);
 }

@@ -1,3 +1,4 @@
+using BLL;
 using DAL;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,20 +16,26 @@ builder.Services.AddDbContext<SchlDbContext>(opt =>
 });
 
 //Registered DataAccessFactory dependency
-// builder.Services.AddScoped<DataAccessFactory>();
+builder.Services.AddScoped<DataAccessFactory>();
 
 //Registered repository dependencies
-builder.Services.AddScoped<IUserRepo>();
-builder.Services.AddScoped<ITeacherRepo>();
-builder.Services.AddScoped<IStudentRepo>();
-builder.Services.AddScoped<IRoleRepo>();
-builder.Services.AddScoped<IDepartmentRepo>();
-builder.Services.AddScoped<ICourseTeacherRepo>();
-builder.Services.AddScoped<ICourseStudentRepo>();
-builder.Services.AddScoped<ICourseDepartmentRepo>();
-builder.Services.AddScoped<ICourseRepo>();
+//builder.Services.AddScoped<IUserRepo>();
+//builder.Services.AddScoped<ITeacherRepo>();
+//builder.Services.AddScoped<IStudentRepo>();
+//builder.Services.AddScoped<IRoleRepo>();
+//builder.Services.AddScoped<IDepartmentRepo>();
+//builder.Services.AddScoped<ICourseTeacherRepo>();
+//builder.Services.AddScoped<ICourseStudentRepo>();
+//builder.Services.AddScoped<ICourseDepartmentRepo>();
+//builder.Services.AddScoped<ICourseRepo>();
 
 //Registered service dependencies
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<TeacherService>();
+builder.Services.AddScoped<StudentService>();
+builder.Services.AddScoped<DepartmentService>();
+builder.Services.AddScoped<CourseService>();
+// builder.Services.AddScoped<IAuthService>();
 
 var app = builder.Build();
 

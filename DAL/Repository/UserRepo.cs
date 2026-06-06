@@ -7,27 +7,28 @@ public class UserRepo : IUserRepo
     {
         _db = db;
     }
-    public bool Add(User user)
+
+    public Task<bool> Add(User user)
     {
         throw new NotImplementedException();
     }
 
-    public bool Delete(Guid guid)
+    public Task<bool> Delete(Guid guid)
     {
         throw new NotImplementedException();
     }
 
-    public User Get(Guid guid)
+    public Task<User> Get(Guid guid)
     {
         throw new NotImplementedException();
     }
 
-    public IEnumerable<User> GetAll()
+    public Task<IEnumerable<User>> GetAll()
     {
         throw new NotImplementedException();
     }
 
-    public bool Update(User user)
+    public Task<bool> Update(User user)
     {
         throw new NotImplementedException();
     }

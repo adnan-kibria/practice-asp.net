@@ -2,9 +2,9 @@
 
 public interface ITeacherRepo
 {
-    IEnumerable<Teacher> GetAll();
-    Teacher Get(int id);
-    bool Add(Teacher teacher);
-    bool Update(Teacher teacher);
-    bool Delete(int id);
+    Task<IEnumerable<Teacher>> GetAll();
+    Task<Teacher> Get(int id);
+    Task<bool> Add(Teacher teacher);
+    Task<bool> Update(Teacher teacher);
+    Task<bool> Delete(int id);
 }

@@ -2,6 +2,6 @@
 
 public interface ICourseTeacherRepo
 {
-    IEnumerable<CourseTeacher> GetAll();
-    CourseTeacher Get(int id);
+    Task<IEnumerable<CourseTeacher>> GetAll();
+    Task<CourseTeacher> Get(int id);
 }

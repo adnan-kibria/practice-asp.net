@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C34C62A-98EB-37CA-9164-15E964ADB8E5}|PresentationAPI\\PresentationAPI.csproj|c:\\users\\adnan\\onedrive\\documents\\asp.net-core\\introtodafxapi\\presentationapi\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C34C62A-98EB-37CA-9164-15E964ADB8E5}|PresentationAPI\\PresentationAPI.csproj|solutionrelative:presentationapi\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\adnan\\onedrive\\documents\\asp.net-core\\introtodafxapi\\bll\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C34C62A-98EB-37CA-9164-15E964ADB8E5}|PresentationAPI\\PresentationAPI.csproj|c:\\users\\adnan\\onedrive\\documents\\asp.net-core\\introtodafxapi\\presentationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C34C62A-98EB-37CA-9164-15E964ADB8E5}|PresentationAPI\\PresentationAPI.csproj|solutionrelative:presentationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\BLL\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\BLL\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "BLL\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:11:48.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\PresentationAPI\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "PresentationAPI\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\PresentationAPI\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "PresentationAPI\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T09:00:02.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\PresentationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PresentationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\adnan\\OneDrive\\Documents\\asp.net-core\\IntroToDAFxAPI\\PresentationAPI\\Program.cs",
+              "RelativeToolTip": "PresentationAPI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T08:52:06.06Z",
+              "EditorCaption": ""
             }
           ]
         }

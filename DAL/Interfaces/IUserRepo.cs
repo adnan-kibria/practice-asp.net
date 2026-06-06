@@ -2,9 +2,9 @@
 
 public interface IUserRepo
 {
-    IEnumerable<User> GetAll();
-    User Get(Guid guid);
-    bool Add(User user);
-    bool Update(User user);
-    bool Delete(Guid guid);
+    Task<IEnumerable<User>> GetAll();
+    Task<User> Get(Guid guid);
+    Task<bool> Add(User user);
+    Task<bool> Update(User user);
+    Task<bool> Delete(Guid guid);
 }
